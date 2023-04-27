@@ -13,7 +13,9 @@ As image-based recommendation is extremely time-consuming for real-time data, an
 
 To run the program, install the dependencies and then run
 
+```
 python3 product.py --recommend 1 --pages 10
+```
 
 where recommend=1 signifies a product title-based recommendation, and 2 signifies a product title and brand-based recommendation.
-pages signifies the number of search result pages to crawl Amazon for.
+Argument pages signifies the number of search result pages to crawl Amazon for.
