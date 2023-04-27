@@ -2,7 +2,7 @@
 
 The aim of the project is to make recommendations based on images, title and brand information of Amazon products. The project works in real-time, providing recommendations for the user based upon a product of their choice. The user simply enters the product url in a text file (product_urls.txt), and runs the program, specifying the method of recommendation and the number of Amazon pages to search for similar products.
 
-The first part of the project trains and tests an image classification model (in Product_Recommendation.ipynb) on various Amazon products listed in a static csv dataset. This can be used in order to transform any non-labeled data into labeled data due to its high accuracy, thus converting the task from semi-supervised learning into supervised learning.
+The first part of the project trains and tests an image classification model (in Product_Recommendation.ipynb) on various Amazon products listed in a static csv dataset. The lightweight CNN model achieves 92.96% training accuracy and 92.88% test accuracy. For recommendation, a much more powerful model, VGG-16 is used as a feature extractor to achieve even greater accuracy. The classification model can be used in order to transform any non-labeled data into labeled data due to its high accuracy, thus converting the task from semi-supervised learning into supervised learning in the case of partially extracted data.
 
 The second part of the project is contains three recommendation engines -
 1. The first recommendation engine takes in images from the user and recommends products solely based on image similarity (in Product_Recommendation.ipynb),
