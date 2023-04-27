@@ -1,4 +1,4 @@
-# recommendation-system
+# E-Commerce Website Product Recommendation System
 
 The aim of the project is to make recommendations based on images, title and brand information of Amazon products. The project works in real-time, providing recommendations for the user based upon a product of their choice. The user simply enters the product url in a text file (product_urls.txt), and runs the program, specifying the method of recommendation and the number of Amazon pages to search for similar products.
 
